@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login route 1`] = `
+<div
+  id="navigator"
+>
+  <div
+    className="site-name"
+  >
+    <a
+      className="no-decoration"
+      href="/"
+      onClick={[Function]}
+    >
+      Test
+    </a>
+  </div>
+  <ul
+    className="link-list"
+  >
+    <li>
+      <a
+        href="/login"
+        onClick={[Function]}
+      >
+        Login
+      </a>
+    </li>
+    <li>
+      <a
+        href="/register"
+        onClick={[Function]}
+      >
+        Register
+      </a>
+    </li>
+  </ul>
+</div>
+`;

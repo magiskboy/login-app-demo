@@ -1,0 +1,31 @@
+#navigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 15px;
+    background-color: rgb(44, 97, 212);
+
+    .site-name {
+        a {
+            color: white;
+            font-weight: bold;
+            font-size: 22px;
+        }
+    }
+
+    .link-list {
+        display: flex;
+        list-style: none;
+
+        li {
+            padding: 0 20px;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+    }
+}
